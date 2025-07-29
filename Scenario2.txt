@@ -20,6 +20,7 @@ void main() {
 }
 
 double deposit(double currentBalance, double amount) {
+
   if (amount > 0) {
     double newBalance = currentBalance + amount;
     print("Deposited: ₱${amount.toStringAsFixed(2)}");
